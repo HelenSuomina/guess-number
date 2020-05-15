@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Guess Number",
+    "description": "Hi, my name is Helen. It's my react-native demo app: choose your number and let your Phone guess it. Made for both: iOs and Android platforms.",
+    "slug": "guess-number",
+    "privacy": "public",
+    "sdkVersion": "37.0.0",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/number.png",
+    "splash": {
+      "image": "./assets/number-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#C7FBA8"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
